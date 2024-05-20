@@ -1,0 +1,89 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background: radial-gradient(rgb(9, 0, 75), rgb(0, 23, 72));
+    font-family: "Lato", Arial, Helvetica;
+    color: white;
+    background-repeat: no-repeat;
+  }
+  
+  header{
+    font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#ff5858;
+    align-items: center;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+  }
+  
+  .Link{
+    color: rgb(255, 244, 32);
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  .logo{
+    width: 150px;
+    height: 100%;
+    filter:drop-shadow(0 0 6px black)
+  }
+
+  hr{
+    height: 2px;
+    box-shadow: 0px 0px 10px black;
+  }
+
+  main{
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .divForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    border: 4mm ridge rgb(130, 14, 2);
+    box-shadow: 2px 2px 4px black;
+    background-image: url("../images/compilation.gif");
+    background-size: cover;
+    font-size: larger;
+  }
+
+  .line{
+    height: 0px;
+    border-color: yellow;
+    box-shadow: 0px 0px 10px black;
+  }
+
+  .divForm h1{
+    font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 0px 0px 8px black;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+  }
+
+  input[type="text"]{
+    width: 450px;
+  }
+
+  input[type="submit"]{
+    width: 250px;
+  }
+
+  footer{
+    background-color:#967615;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px black;
+  }

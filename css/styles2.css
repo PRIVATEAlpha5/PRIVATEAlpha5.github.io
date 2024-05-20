@@ -1,0 +1,134 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background: radial-gradient(#a70bb2, #450138);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  header{
+    width: 100%;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#610085;
+    align-items: center;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    font-family: "Press Start 2P", system-ui;
+  }
+  
+  .Link{
+    color: rgb(32, 244, 255);
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  .logo{
+    width: 150px;
+    height: 100%;
+    filter:drop-shadow(0 0 6px black)
+  }
+
+  hr{
+    height: 2px;
+    box-shadow: 0px 0px 10px black;
+    border-color: rgb(180, 115, 255);
+  }
+
+  main{
+    background-image: url("../images/lamps.png");
+    background-size: 5%;
+  }
+
+  .background-image{
+    filter:blur(4px);
+    width: 1500px;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black
+  }
+
+  .container{
+    display: flex;
+  }
+
+  .Gamecover{
+    margin-right: 20px;
+    transform: translateY(8%);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px black;
+    border: 2mm ridge rgba(226, 25, 245, 0.6);
+  }
+
+  .title{
+    font-family: "Press Start 2P", system-ui;
+    color: #cf56ffd8;
+    text-shadow: 4px 4px 4px black;
+  }
+
+  .text{
+    font-family: "Pixelify Sans", sans-serif;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .text p{
+    font-size: larger;
+  }
+
+  .littlebox{
+    background-color:#00806b;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 4px black;
+    margin-top: -10px;
+  }
+
+  .littlebox h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    color: #b2d0fcd8;
+  }
+
+  .box{
+    display: flex;
+    background-color:#bc9d02;
+    text-transform: uppercase;
+    width: 100%;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 15px;
+    width: 850px;
+    margin-bottom: 2px;
+  }
+
+  .box p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    transform: translateY(13%);
+  }
+
+  .title2{
+    font-family: "Press Start 2P", system-ui;
+    color: #e298ffd8;
+    text-shadow: 4px 4px 4px black;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    background-color:#967615;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px black;
+  }
